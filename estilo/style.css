@@ -33,7 +33,7 @@ header {
     background-color: black;
     text-align: center;
     padding: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 header > h1 {
@@ -44,7 +44,7 @@ header > h1 {
     /*text-transform: uppercase;*/
 
     font-family: var(--fonte2);
-    font-weight: normal;
+    font-weight: bold;
     font-size: 6.5vw
 }
 
@@ -56,7 +56,7 @@ header > p {
 
 header a, footer a {
 
-    color:white;
+    color:rgb(255, 255, 255);
     text-decoration-line: none;
     font-weight: bold;
 }
@@ -75,6 +75,7 @@ section {
     line-height: 2em;
     padding-left: 50px;
     font-size: 2vw;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -85,14 +86,14 @@ section > p {
 
 section.normal {
 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
 section.imagem {
 
     background-color: rgb(78, 78, 78);
-    color: white;
+    color: rgb(255, 255, 255);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.397);
     background-size: cover;
     background-attachment: fixed;
@@ -136,8 +137,8 @@ section#img03 {
 footer {
 
     background-color: black;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
 }
