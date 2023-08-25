@@ -26,9 +26,9 @@ html, body {
 
 header {
     background-image: url('../imagens/opequenoprincipe2.jpg');
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
-    
 
     background-color: black;
     text-align: center;
@@ -36,7 +36,7 @@ header {
     color: rgb(255, 255, 255);
 }
 
-header > h1 {
+header h1 {
 
     padding-top: 50px;
 
@@ -48,13 +48,13 @@ header > h1 {
     font-size: 6.5vw
 }
 
-header > p {
+header p {
 
     padding-bottom: 50px;
 
 }
 
-header a, footer a {
+header a {
 
     color:rgb(255, 255, 255);
     text-decoration-line: none;
@@ -79,19 +79,18 @@ section {
     
 }
 
-section > p {
+section p {
 
     padding: 0.5em;
 }
 
-section.normal {
+.normal {
 
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
-section.imagem {
-
+.imagem {
     background-color: rgb(78, 78, 78);
     color: rgb(255, 255, 255);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.397);
@@ -100,7 +99,7 @@ section.imagem {
 
 }
 
-section.imagem > p {
+.imagem p {
 
     display: inline-block;
     padding: 10px;
@@ -111,21 +110,20 @@ section.imagem > p {
     
 }
 
-section#img01 {
+.img01 {
 
     background-image: url('../imagens/opequenoprincipe4.jpg');
     background-position: center center;
     
 }
 
-section#img02 {
+.img02 {
 
     background-image: url('../imagens/opequenoprincipe.jpg');
     background-position: center center;
-    
 }
 
-section#img03 {
+.img03 {
 
     background-image: url('../imagens/opequenoprincipe3.jpg');
     background-position: center center;
@@ -134,11 +132,13 @@ section#img03 {
 
 
 
-footer {
-
-    background-color: black;
+footer, footer a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.718);
     border-radius: 0px 0px 0px 0px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
