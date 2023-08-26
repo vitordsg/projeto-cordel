@@ -11,10 +11,10 @@
 </head>
 <body>
     <section class="parallax">
-        <img src="imagens/bg.jpg" id="">
-        <img src="imagens/moon.png" id="">
-        <img src="imagens/mountain.png" id="">
-        <img src="imagens/road.png" id="">
+        <img src="imagens/bg.jpg" class="bg">
+        <img src="imagens/moon.png" class="moon">
+        <img src="imagens/mountain.png" class="mountain">
+        <img src="imagens/road.png" class="road">
         <h2 class="text">O Pequeno Príncipe</h2>
     </section>
     <header>
@@ -110,5 +110,23 @@
     <footer>
         Site criado por <a href="https://github.com/vitordsg" target="_blank ">Vitor Santos</a> para o <a href="https://www.cursoemvideo.com" target="_blank">CursoemVideo</a>
     </footer>
+
+    <script type="text/javascript">
+        const bg = document.querySelector('.bg')
+        const moon = document.querySelector('.moon')
+        const mountain = document.querySelector('.mountain')
+        const road = document.querySelector('.road')
+        const text = document.querySelector('.text')
+
+        window.addEventListener('scroll', () => {
+            const value = window.scrollY
+
+            bg.style.top = value * 0.5 + 'px'
+            moon.style.left = -value * 0.5 + 'px'
+            mountain.style.top = -value * 0.15 + 'px'
+            road.style.top = value * 0.15 + 'px'
+            text.style.top = value * 1 + 'px'
+        })
+    </script>
 </body>
 </html>
