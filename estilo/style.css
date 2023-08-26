@@ -135,7 +135,7 @@ footer, footer a {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 200px;
+    height: 700px;
     background: linear-gradient(to top, #ffffff, transparent);
     z-index: 10000;
 }
@@ -165,9 +165,10 @@ footer, footer a {
 .text {
     margin-bottom: 205px;
     position: relative;
+    word-spacing: 150px;
     color: white;
     font-size: 5em;
-    z-index: 13;
+    z-index: 1;
 }
 
 .road {
