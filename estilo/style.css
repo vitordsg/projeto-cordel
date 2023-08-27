@@ -22,37 +22,27 @@ html, body {
     min-height: 100vh;
 }
 
-header {
-    background-image: url('../imagens/opequenoprincipe2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    background-color: black;
+.autor h1 {
+    font-family: var(--fonte3);
+    font-size: 3.5em;
     text-align: center;
-    padding: 30px;
-    margin-top: 30px;
-    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 50px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.716);
+    z-index: 1;
 }
 
-header h1 {
-    padding-top: 50px;
+.autor p, .autor a {
+    color:rgb(0, 0, 0);
     font-family: var(--fonte2);
-    font-weight: bold;
-    font-size: 6.5vw
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
-header p {
-    padding-bottom: 50px;
-}
-
-header a {
-    color:rgb(255, 255, 255);
-    text-decoration-line: none;
-    font-weight: bold;
-}
-
-header a:hover, footer a:hover {
+.autor a:hover, footer a:hover {
     text-decoration: underline;
 }
 
@@ -67,13 +57,14 @@ section {
 }
 
 section p {
+    text-align: center;
     font-family: var(--fonte4);
     font-weight: 600;
     padding: 0.5em;
 }
 
 .primeiroP {
-    margin-top: -110px;
+    margin-top: -50px;
 }
 
 .normal {
@@ -82,6 +73,7 @@ section p {
 }
 
 .imagem {
+    text-align: center;
     background-color: rgb(78, 78, 78);
     color: rgb(255, 255, 255);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.397);
@@ -91,7 +83,7 @@ section p {
 
 .imagem p {
     display: inline-block;
-    padding: 10px;
+    padding: 100px;
     background-color: rgba(46, 46, 46, 0.096);
     border-radius: 15px;
     text-shadow: 1px 1px 0px black;
@@ -108,8 +100,8 @@ section p {
 }
 
 .img03 {
-    background-image: url('../imagens/opequenoprincipe3.jpg');
-    background-position: center center;
+    background-image: url('../imagens/opequenoprincipe2.jpg');
+    /* background-position: center center; */
 }
 
 footer, footer a {
@@ -121,6 +113,7 @@ footer, footer a {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
+    text-decoration: none;
 }
 
 .parallax {
@@ -129,7 +122,7 @@ footer, footer a {
     height: 100vh;
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding-left: 0px;
 }
@@ -138,8 +131,8 @@ footer, footer a {
     content: '';
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 400px;
+    width: 100vw;
+    height: 500px;
     background: linear-gradient(to top, #ffffff, transparent);
     z-index: 10000;
 }
@@ -167,13 +160,15 @@ footer, footer a {
 }
 
 .text {
+    font-family: var(--fonte3);
+    font-size: 3.5em;
+    text-transform: uppercase;
     display: block;
     margin-bottom: 205px;
     position: relative;
-    word-spacing: 150px;
-    color: white;
-    font-size: 5em;
+    color: rgba(255, 255, 255, 0.716);
     z-index: 1;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0)
 }
 
 .active {
