@@ -24,26 +24,37 @@ html, body {
 
 .autor h1 {
     font-family: var(--fonte3);
-    font-size: 3.5em;
+    font-size: 6rem;
+    font-style: italic;
+    font-weight: bolder;
     text-align: center;
     text-transform: uppercase;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     position: relative;
-    color: rgba(0, 0, 0, 0.716);
+    color: rgba(0, 0, 0, 0.797);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
     z-index: 1;
+}
+
+h1:hover {
+    font-size: 6.5rem;
+    transition: .5s;
+    cursor: pointer;
 }
 
 .autor p, .autor a {
     color:rgb(0, 0, 0);
     font-family: var(--fonte2);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bolder;
     text-decoration: none;
 }
 
 .autor a:hover, footer a:hover {
     text-decoration: underline;
+    font-size: 1.6rem;
+    transition: .5s;
 }
 
 section {
@@ -72,6 +83,11 @@ section p {
     color: rgb(0, 0, 0);
 }
 
+.normal:hover {
+    transition: .5s;
+    font-size: 25px;
+}
+
 .imagem {
     text-align: center;
     background-color: rgb(78, 78, 78);
@@ -79,6 +95,11 @@ section p {
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.397);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.imagem:hover {
+    transition: .5s;
+    font-size: 25px;
 }
 
 .imagem p {
@@ -145,7 +166,7 @@ footer, footer a {
     width: 100%;
     height: 100%;
     /* background: #fadd9759; */
-    z-index: 10000;
+    
     mix-blend-mode: color;
 }
 
@@ -169,13 +190,6 @@ footer, footer a {
     position: relative;
     color: rgba(255, 255, 255, 0.716);
     z-index: 1;
-    
-}
-
-.text::after {
-    font-size: 7.5rem;
-    transition: 1s;
-    background: black;
 }
 
 .active {
