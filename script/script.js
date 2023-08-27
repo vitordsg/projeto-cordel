@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
     console.log(window.scrollY)
      bg.style.top = value * 0.14 + 'px'
     // moon.style.left = -value * 0.5 + 'px'
-    mountain.style.top = -value * 0.15 + 'px'
+    mountain.style.top = -value * 0.20 + 'px'
     road.style.top = -value * 0.10 + 'px'
     text.style.top = value * 0.5 + 'px'
 })
