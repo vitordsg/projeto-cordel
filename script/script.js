@@ -25,7 +25,7 @@ window.addEventListener('scroll' , () => {
     })
 
     first_Titulo.style.opacity = - scroll / (header_height / 2 ) + 1
-    sombra.style.height = `${scroll * 0.10 + 300}px`
+    sombra.style.height = `${scroll * 0.5 + 300}px`
 
     // content.style.transform = `translateY(${scroll / (section_height + sectionY.top) * 50 - 50}px)`
     // img_container.style.transform = `translateY(${scroll / (section_height + sectionY.top) * - 50 + 50}px)`
