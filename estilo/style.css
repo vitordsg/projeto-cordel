@@ -67,11 +67,11 @@ header::after {
     z-index: 18;
 }
 
-.sky {
+/* .sky {
     position: absolute;
     bottom: 0px;
     width: 100%;
-}
+} */
 
 nav {
     position: absolute;
@@ -90,7 +90,7 @@ nav .container {
 }
 
 .logo {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: var(--fonte4);
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -115,7 +115,7 @@ nav .container {
     position: relative;
     width: 1.2rem;
     height: 3px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 2px;
 }
 
@@ -125,7 +125,7 @@ nav .container {
     width: 1.55rem;
     height: 3px;
     right: 0;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 2px;
 }
 
@@ -142,12 +142,13 @@ nav .container {
     position: absolute;
     z-index: 30;
     line-height: 4rem;
-    top: calc(50% + 10rem);
+    top: calc(50% - 3rem);
     width: 100%;
     text-align: center;
     font-size: 5rem;
     font-weight: 600;
     color: white;
+    transition: .4s;
 }
 
 .exemplo {
@@ -213,28 +214,8 @@ section img {
     opacity: 0;
 }
 
-.autor h1 {
-    font-family: var(--fonte3);
-    font-size: 6rem;
-    font-style: italic;
-    font-weight: bolder;
-    text-align: center;
-    text-transform: uppercase;
-    display: block;
-    margin-bottom: 30px;
-    position: relative;
-    color: rgba(0, 0, 0, 0.797);
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
-    z-index: 1;
-}
-
-.autor h1:hover {
-    font-size: 6.5rem;
-    transition: .5s;
-}
-
 .autor p, .autor a {
-    color:rgb(0, 0, 0);
+    color:rgb(255, 252, 252);
     font-family: var(--fonte2);
     font-size: 1.5rem;
     font-weight: bolder;
@@ -259,7 +240,6 @@ section {
 
 section p {
     text-align: center;
-    /* font-family: var(--fonte4); */
     font-weight: 600;
     padding: 0.5em;
 }
@@ -302,7 +282,7 @@ section p {
 
 .img01 {
     background-image: url('../imagens/opequenoprincipe4.jpg');
-    /* background-position: center center; */
+    background-size: cover;
 }
 
 .img02 {
@@ -330,12 +310,22 @@ footer, footer a {
 @media (max-width: 850px) {
     .exemplo .container {
         grid-template-columns: 1fr;
+        transition: .4s;
+        transition-timing-function: ease;
+    }
+
+    .first-titulo {
+        font-size: 3.5rem;
+        transition-duration: .4s;
+        transition-timing-function: ease;
     }
 }
 
 @media (max-width: 600px) {
     .first-titulo {
         font-size: 3rem;
+        transition: .4s;
+        transition-timing-function: ease;
     }
 
     .titulo {
