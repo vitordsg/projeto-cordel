@@ -29,7 +29,7 @@ body {
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     position: relative;
     overflow: hidden;
 }
@@ -47,27 +47,29 @@ header::after {
 
 .montanha1 {
     position: absolute;
-    width: auto;
+    width: 100%;
+    bottom: 0px;
+    right: 0;
     z-index: 19;
 }
 
 .principe {
     position: absolute;
-    width: auto;
-    bottom: -100px;
+    width: 100%;
+    bottom: 0px;
     z-index: 20;
 }
 
 .montanha2 {
     position: absolute;
-    width: auto;
-    bottom: 180px;
-    right: 220px;
+    width: 100%;
+    bottom: 0px;
     z-index: 18;
 }
 
 .sky {
     position: absolute;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -140,7 +142,7 @@ nav .container {
     position: absolute;
     z-index: 30;
     line-height: 4rem;
-    top: calc(50% - 2rem);
+    top: calc(50% + 10rem);
     width: 100%;
     text-align: center;
     font-size: 5rem;
@@ -226,7 +228,7 @@ section img {
     z-index: 1;
 }
 
-h1:hover {
+.autor h1:hover {
     font-size: 6.5rem;
     transition: .5s;
 }
@@ -300,7 +302,7 @@ section p {
 
 .img01 {
     background-image: url('../imagens/opequenoprincipe4.jpg');
-    background-position: center center;
+    /* background-position: center center; */
 }
 
 .img02 {
