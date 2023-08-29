@@ -173,6 +173,11 @@ section img {
 
 .content {
     color: white;
+    transform: translateY(-50px);
+}
+
+.imgContainer {
+    transform: translateY(50px);
 }
 
 .titulo {
@@ -185,7 +190,7 @@ section img {
 
 .border {
     position: relative;
-    width: 30%;
+    width: 0%;
     height: 3px;
     background-color: white;
     bottom: 0;
@@ -200,6 +205,10 @@ section img {
     left: 0;
     z-index: 20;
     background: linear-gradient(to top, #151515, transparent)
+}
+
+.opacity {
+    opacity: 0;
 }
 
 .autor h1 {
@@ -314,4 +323,24 @@ footer, footer a {
     text-align: center;
     padding: 10px;
     text-decoration: none;
+}
+
+@media (max-width: 850px) {
+    .exemplo .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .first-titulo {
+        font-size: 3rem;
+    }
+
+    .titulo {
+        font-size: 1.2rem;
+    }
+
+    .text {
+        font-size: .8rem;
+    }
 }
