@@ -29,7 +29,7 @@ body {
 
 header {
     width: 100%;
-    height: 105vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -54,7 +54,7 @@ header::after {
 .principe {
     position: absolute;
     width: auto;
-    bottom: 0px;
+    bottom: -100px;
     z-index: 20;
 }
 
@@ -88,7 +88,7 @@ nav .container {
 }
 
 .logo {
-    color: #fff;
+    color: white;
     font-family: var(--fonte4);
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -113,7 +113,7 @@ nav .container {
     position: relative;
     width: 1.2rem;
     height: 3px;
-    background-color: #fff;
+    background-color: white;
     border-radius: 2px;
 }
 
@@ -123,7 +123,7 @@ nav .container {
     width: 1.55rem;
     height: 3px;
     right: 0;
-    background-color: #fff;
+    background-color: white;
     border-radius: 2px;
 }
 
@@ -135,7 +135,7 @@ nav .container {
     transform: translateY(8px);
 }
 
-.titulo {
+.first-titulo {
     font-family: var(--fonte4);
     position: absolute;
     z-index: 30;
@@ -145,7 +145,61 @@ nav .container {
     text-align: center;
     font-size: 5rem;
     font-weight: 600;
-    color: #fff;
+    color: white;
+}
+
+.exemplo {
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+}
+
+.exemplo .container {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section img {
+    width: 100%;
+}
+
+.exemplo .container > * {
+    margin: 2rem;
+}
+
+.content {
+    color: white;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    position: relative;
+}
+
+.border {
+    position: relative;
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+}
+
+.sombra {
+    position: absolute;
+    bottom: 100%;
+    height: 300px;
+    width: 100%;
+    left: 0;
+    z-index: 20;
+    background: linear-gradient(to top, #151515, transparent)
 }
 
 .autor h1 {
