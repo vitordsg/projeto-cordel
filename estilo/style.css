@@ -233,7 +233,7 @@ a {
     font-weight: 100;
 }
 
-.autor a:hover, footer a:hover {
+a:hover, footer a:hover {
     text-decoration: underline;
     font-size: 1.6rem;
     transition: .5s;
@@ -246,7 +246,6 @@ section {
     padding-left: 50px;
     font-size: 21.5px;
     color: rgb(0, 0, 0);
-    
 }
 
 section p {
