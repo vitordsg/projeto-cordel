@@ -33,7 +33,7 @@ window.addEventListener('scroll' , () => {
     let scrollSection = sectionY.top
     border.forEach(element => {
         
-        element.style.width = `${scroll / (scrollSection + section_height) * 0.5}%`
+        element.style.width = `${scroll * 0.0050}%`;
         // if (scrollSection < -200) {
         //     element.style.width = `${scroll / (scrollSection + section_height) * 30}%`;
         // } 
