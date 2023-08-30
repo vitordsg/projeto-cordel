@@ -246,7 +246,7 @@ a:hover, footer a:hover {
 }
 
 
-section p {
+.text {
     text-align: center;
     font-weight: 600;
     padding: 0.5em;
@@ -256,43 +256,23 @@ section p {
     background-color:rgba(255, 225, 0, 0.098);
 }
 
-.letra-white {
-    color: white;
-}
-
-.border-white {
-    background-color: white;
-}
 .normal:hover {
     transition: .5s;
     font-size: 25px;
 }
 
-.imagem {
-    text-align: center;
-    background-color: rgb(78, 78, 78);
-    color: rgb(255, 255, 255);
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.397);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.imagem:hover {
-    transition: .5s;
-    font-size: 25px;
-}
-
-.imagem p {
-    display: inline-block;
-    padding: 100px;
-    background-color: rgba(46, 46, 46, 0.096);
-    border-radius: 15px;
-    text-shadow: 1px 1px 0px black;
-}
-
 .img01 {
     background-image: url('../imagens/opequenoprincipe4.jpg');
-    background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 50%;
 }
 
 .img02 {
