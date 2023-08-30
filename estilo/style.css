@@ -225,12 +225,12 @@ section img {
     opacity: 0;
 }
 
-.autor p, .autor a {
-    color:rgb(255, 252, 252);
+a {
     font-family: var(--fonte2);
-    font-size: 1.5rem;
-    font-weight: bolder;
     text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 100;
 }
 
 .autor a:hover, footer a:hover {
