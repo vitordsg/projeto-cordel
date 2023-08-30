@@ -157,6 +157,12 @@ nav .container {
     width: 100%;
     background-color: #ffffff;
     position: relative;
+    padding-top: 28vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 50px;
+    font-size: 21.5px;
+    color: rgb(0, 0, 0);
 }
 
 .exemplo .container {
@@ -239,14 +245,6 @@ a:hover, footer a:hover {
     transition: .5s;
 }
 
-section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 50px;
-    font-size: 21.5px;
-    color: rgb(0, 0, 0);
-}
 
 section p {
     text-align: center;
