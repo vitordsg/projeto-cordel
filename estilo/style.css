@@ -265,14 +265,8 @@ a:hover, footer a:hover {
     background-image: url('../imagens/opequenoprincipe4.jpg');
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: center;
-}
-
-.blur {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
-    height: 100vh;
-    width: 50%;
+    background-position: right 3% bottom 33%;
+    
 }
 
 .img02 {
