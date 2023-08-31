@@ -176,6 +176,8 @@ nav .container {
 
 section img {
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.829);
 }
 
 .exemplo .container > * {
@@ -191,6 +193,10 @@ section img {
     transform: translateY(50px);
 }
 
+.imgContainer:hover {
+    width: 105%;
+    transition: 1s;
+}
 .titulo {
     font-weight: 600;
     font-size: 1.5rem;
@@ -254,29 +260,6 @@ a:hover, footer a:hover {
 
 .fundo-areia {
     background-color:rgba(255, 225, 0, 0.098);
-}
-
-.normal:hover {
-    transition: .5s;
-    font-size: 25px;
-}
-
-.img01 {
-    background-image: url('../imagens/opequenoprincipe4.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-
-.img02 {
-    background-image: url('../imagens/opequenoprincipe.jpg');
-    background-position: center center;
-}
-
-.img03 {
-    background-image: url('../imagens/opequenoprincipe2.jpg');
-    /* background-position: center center; */
 }
 
 .blur::after {
