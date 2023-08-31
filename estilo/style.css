@@ -178,6 +178,8 @@ section img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.829);
+    transition: 1s;
+    transition-timing-function: ease;
 }
 
 .exemplo .container > * {
@@ -193,9 +195,10 @@ section img {
     transform: translateY(50px);
 }
 
-.imgContainer:hover {
+.imgContainer img:hover {
     width: 105%;
     transition: 1s;
+    transition-timing-function: ease;
 }
 .titulo {
     font-weight: 600;
