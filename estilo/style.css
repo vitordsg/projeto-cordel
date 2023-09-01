@@ -199,6 +199,7 @@ section img {
     width: 105%;
     transition: 1s;
     transition-timing-function: ease;
+    cursor: pointer;
 }
 .titulo {
     font-weight: 600;
