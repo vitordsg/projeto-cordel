@@ -151,6 +151,7 @@ nav .container {
     font-weight: 600;
     color: white;
     transition: .4s;
+    transition-timing-function: ease;
 }
 
 .exemplo {
@@ -247,10 +248,11 @@ a {
     color: black;
     font-size: 1.5rem;
     font-weight: 100;
+    transition: .5s;
 }
 
 a:hover, footer a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 1.6rem;
     transition: .5s;
 }
