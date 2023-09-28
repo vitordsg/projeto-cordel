@@ -7,6 +7,7 @@ const section = document.querySelector('.exemplo')
 const img_container = document.querySelector('.imgContainer')
 const opacidade = document.querySelectorAll('.opacity')
 const border = document.querySelectorAll('.border')
+const openMenu = () => document.body.classList.toggle('open')
 
 let header_height = header.offsetHeight
 let section_height = section.offsetHeight

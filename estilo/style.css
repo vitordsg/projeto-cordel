@@ -110,7 +110,7 @@ nav .container {
 .first-titulo {
     font-family: var(--fonte4);
     position: absolute;
-    z-index: 30;
+    z-index: 29;
     line-height: 4rem;
     top: calc(50% - 3rem);
     width: 100%;
