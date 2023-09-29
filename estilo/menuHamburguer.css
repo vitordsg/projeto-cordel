@@ -35,7 +35,7 @@
 
 .sobreposicao{
   position: fixed;
-  z-index: 1000;
+  z-index: 0;
   top: 0;
   left: 0;
   bottom: 0;
@@ -54,6 +54,6 @@ body.open .sobreposicao {
 }
 
 body.open nav {
-  z-index: 31;
+  z-index: 32;
   color: #fff;
 }
