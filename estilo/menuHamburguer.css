@@ -15,8 +15,9 @@
   border-radius: 2px;
 }
 
-.bar::before, .bar::after {
-  content: '';
+.bar::before,
+.bar::after {
+  content: "";
   position: absolute;
   width: 1.55rem;
   height: 3px;
@@ -33,7 +34,7 @@
   transform: translateY(8px);
 }
 
-.sobreposicao{
+.sobreposicao {
   position: fixed;
   z-index: 0;
   top: 0;
@@ -44,7 +45,7 @@
   visibility: hidden;
   opacity: 0;
   backdrop-filter: blur(6px);
-  transition: .3s
+  transition: 0.3s;
 }
 
 body.open .sobreposicao {
@@ -56,4 +57,10 @@ body.open .sobreposicao {
 body.open nav {
   z-index: 32;
   color: #fff;
+}
+
+.close {
+  z-index: 35;
+  cursor: pointer;
+  margin-top: 50px;
 }
