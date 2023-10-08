@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body class="">
-    <header class="blur">
+    <header class="blur" id="home">
         <nav>
             <div class="container menuHome">
                 <h3 class="logo">Vitor<span>Santos</span></h3>
@@ -23,12 +23,13 @@
         <div class="sobreposicao"></div>
         <aside>
             <div><i class="fa-solid fa-circle-xmark close" onclick="openMenu()"></i></div>
-            <a href="">Home</a>
-            <a href="">Trecho 1</a>
-            <a href="">Trecho 2</a>
-            <a href="">Trecho 3</a>
-            <a href="">Trecho 4</a>
-            <a href="">Trecho 5</a>
+            <a href="#home" onclick="openMenu()">Home</a>
+            <a href="#trecho1" onclick="openMenu()">Trecho 1</a>
+            <a href="#trecho2" onclick="openMenu()">Trecho 2</a>
+            <a href="#trecho3" onclick="openMenu()">Trecho 3</a>
+            <a href="#trecho4" onclick="openMenu()">Trecho 4</a>
+            <a href="#trecho5" onclick="openMenu()">Trecho 5</a>
+            <a href="#trecho6" onclick="openMenu()">Trecho 6</a>
         </aside>
 
         <h1 class="first-titulo transicao" data-velocidade="0.2">O Pequeno Prícipe<br><a href="https://pt.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry" target="_blank">Antoine de Saint-Exupéry</a></h1>
@@ -46,7 +47,7 @@
                 <h3 class="titulo">
                     <div class="border"></div>
                 </h3>
-                <p class="text">E foi então que apareceu a raposa:<br>
+                <p class="text" id="trecho1">E foi então que apareceu a raposa:<br>
                     - Bom dia, disse a raposa.<br>
                     - Bom dia, respondeu polidamente o principezinho, que se<br>
                     voltou, mas não viunada.</p>
@@ -64,7 +65,7 @@
                 <h3 class="titulo">
                     <div class="border"></div>
                 </h3>
-                <p class="text">
+                <p class="text" id="trecho2">
                     Eu estou aqui, disse a voz, debaixo da macieira...<br>
                     - Quem és tu? perguntou o principezinho. Tu és bem bonita...<br>
                     - Sou uma raposa, disse a raposa<br>
@@ -85,7 +86,7 @@
                 <h3 class="titulo">
                     <div class="border"></div>
                 </h3>
-                <p class="text">
+                <p class="text" id="trecho3">
                     - Ah! desculpa, disse o principezinho.<br>
                     Após uma reflexão, acrescentou:<br>
                     - Que quer dizer "cativar"?<br>
@@ -115,7 +116,7 @@
                 <h3 class="titulo">
                     <div class="border"></div>
                 </h3>
-                <p class="text">
+                <p class="text" id="trecho4">
                     - Criar laços?<br>
                     Exatamente, disse a raposa.<br>
                     Tu não és ainda para mim senão um
@@ -141,7 +142,7 @@
                 <h3 class="titulo">
                     <div class="border"></div>
                 </h3>
-                <p class="text">
+                <p class="text" id="trecho5">
                     Existe uma flor.. . Eu creio que ela me cativou ...<br>
                     É possível, disse a raposa.<br>
                     Vê-se tanta coisa na Terra ...<br>
@@ -168,7 +169,7 @@
                 <h3 class="titulo">
                     <div class="border"></div>
                 </h3>
-                <p class="text">
+                <p class="text" id="trecho6">
                     - Minha vida é monótona. Eu caço as galinhas e os homens me caçam.<br>
                     Todas asgalinhas se parecem e todos os homens se parecem
                     também.<br>
@@ -185,7 +186,7 @@
 
     </section>
 
-    <footer class="">
+    <footer class="" id="footer">
         Site criado por <a href="https://github.com/vitordsg" target="_blank ">Vitor Santos</a> para o <a href="https://www.cursoemvideo.com" target="_blank">CursoemVideo</a>
     </footer>
 
